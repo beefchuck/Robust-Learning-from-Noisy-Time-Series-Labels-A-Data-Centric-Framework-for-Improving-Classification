@@ -35,13 +35,17 @@ This repository provides the complete implementation and reproducible benchmarks
 
 ### Dependencies
 
-Which Python version is required? 
+The code was written using Python 3.12 on MacOS. 
+All application dependencies are included in the code -- the following dependencies/third libraries were used:
 
-Does a repository have information on dependencies or instructions on how to set up the environment?
+    - NumPy:^2.0.2
+    - Pandas:^2.2.2
+    - Matplotlib:^3.10.0
+    - Scikit-Learn:^1.6.1
+    - Seaborn:^0.13.2
+    - PyTorch:^2.9.0+cu126
 
 ### Setup
-
-[This is an example]
 
 1. Clone this repository
 
