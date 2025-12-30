@@ -83,24 +83,15 @@ The ```results``` folder contains the comprehensive figures.
 ## Project Structure
 
 ```
+├── READ.md
+├── requirements.txt                          -- required libraries
 ├── data/
-│   ├── ECG5000/
-│   │   ├── ECG5000_TEST.txt
-│   │   └── ECG5000_TRAIN.txt
-│   └── HAR/
-│       ├── X_train.txt.zip
-│       ├── X_test.txt.zip
-│       ├── y_train.txt
-│       └── y_test.txt
+│   ├── ECG5000/                              -- required train and test sets for ECG5000
+│   └── HAR/                                  -- required train and test sets for HAR
 ├── src/
-│   ├── ECG5000/          # ECG5000-specific implementations
-│   ├── HAR/              # HAR-specific implementations
-├── results/
-│   ├── ECG5000/
-│   │   ├── ECG_5000_Model_Performance.png
-│   │   └── ECG_5000_Training_Plot.png
-│   └── HAR/
-│       ├── HAR_Model_Performance.png
-│       └── HAR_Training_Performance.png
-├── requirements.txt
-└── README.md
+│   ├── ECG5000/                              -- ECG5000-specific implementations
+│   ├── HAR/                                  -- HAR-specific implementations
+└── results/
+    ├── ECG5000/                              -- comprehensive plots for ECG5000
+    └── HAR/                                  -- comprehensive plots for HAR
+
