@@ -63,25 +63,18 @@ pip install -r requirements.txt
 
 ## Reproducing results
 
-Describe steps how to reproduce your results.
+1. Open the jupyter-notebooks in your favourite environment (e.g. Colab)
+   
+2. Upload the datasets for the corresponding models in the data-file of the juypter-notebook environment of your model
+       a) ECG5000_TEST.txt and ECG5000_TRAIN.txt for ECG5000_TACL_and_Baseline.ipynb
+       b) First unpack X_test.txt.zip and X_train.txt.zip and upload the unpacked files and y_test.txt and y_train.txt
 
-Here are some examples:
-- [Paperswithcode](https://github.com/paperswithcode/releasing-research-code)
-- [ML Reproducibility Checklist](https://ai.facebook.com/blog/how-the-ai-community-can-get-serious-about-reproducibility/)
-- [Simple & clear Example from Paperswithcode](https://github.com/paperswithcode/releasing-research-code/blob/master/templates/README.md) (!)
-- [Example TensorFlow](https://github.com/NVlabs/selfsupervised-denoising)
+3. Run the model
 
-### Training code
+4. You are being asked which model you want to run, choose 1 to run the complete integrated experiment
 
-Does a repository contain a way to train/fit the model(s) described in the paper?
+5. When being asked to create comprehensive plots, type in "y"
 
-### Evaluation code
-
-Does a repository contain a script to calculate the performance of the trained model(s) or run experiments on models?
-
-### Pretrained models
-
-Does a repository provide free access to pretrained model weights?
 
 ## Results
 
