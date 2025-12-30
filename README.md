@@ -1,5 +1,5 @@
 # Robust Learning from Noisy Time Series Labels: A Data-Centric Framework for Improving Classification Reliability Across Application Domains
-# Title
+
 
 **Type:** Master Thesis
 
@@ -79,3 +79,28 @@ pip install -r requirements.txt
 ## Results
 
 The ```results``` folder contains the comprehensive figures.
+
+## Project Structure
+
+```
+├── data/
+│   ├── ECG5000/
+│   │   ├── ECG5000_TEST.txt
+│   │   └── ECG5000_TRAIN.txt
+│   └── HAR/
+│       ├── X_train.txt.zip
+│       ├── X_test.txt.zip
+│       ├── y_train.txt
+│       └── y_test.txt
+├── src/
+│   ├── ECG5000/          # ECG5000-specific implementations
+│   ├── HAR/              # HAR-specific implementations
+├── results/
+│   ├── ECG5000/
+│   │   ├── ECG_5000_Model_Performance.png
+│   │   └── ECG_5000_Training_Plot.png
+│   └── HAR/
+│       ├── HAR_Model_Performance.png
+│       └── HAR_Training_Performance.png
+├── requirements.txt
+└── README.md
