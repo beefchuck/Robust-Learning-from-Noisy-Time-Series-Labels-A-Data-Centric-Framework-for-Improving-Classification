@@ -78,4 +78,4 @@ pip install -r requirements.txt
 
 ## Results
 
-The results folder contains the comprehensive figures.
+The ```results``` folder contains the comprehensive figures.
