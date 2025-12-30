@@ -78,4 +78,4 @@ pip install -r requirements.txt
 
 ## Results
 
-Does a repository contain a table/plot of main results and a script to reproduce those results?
+The results folder contains the comprehensive figures.
